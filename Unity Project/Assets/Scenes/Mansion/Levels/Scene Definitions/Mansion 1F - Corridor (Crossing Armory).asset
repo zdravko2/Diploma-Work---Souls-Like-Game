@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec465ecc7e2f00d42909f9e8336f1c97, type: 3}
+  m_Name: Mansion 1F - Corridor (Crossing Armory)
+  m_EditorClassIdentifier: Assembly-CSharp::SceneDefinition
+  sceneId: e63b192c-2871-4046-9181-4853d59b0c98
+  displayName: Mansion 1F - Corridor
+  defaultSpawnPointId: Start
+  mainScene:
+    asset: {fileID: 102900000, guid: 4fc72d9f49ad2084f8a259d5ef494891, type: 3}
+    guid: 4fc72d9f49ad2084f8a259d5ef494891
+  neighbourScenes:
+  - asset: {fileID: 102900000, guid: d2b308fc6474db440866732ca58174c0, type: 3}
+    guid: d2b308fc6474db440866732ca58174c0
+  - asset: {fileID: 102900000, guid: cc43bede86430b841a95fd370e4cf25a, type: 3}
+    guid: cc43bede86430b841a95fd370e4cf25a
+  - asset: {fileID: 102900000, guid: 98eca466546c8194881615da4f0cf20b, type: 3}
+    guid: 98eca466546c8194881615da4f0cf20b
+  requiredScenes: []

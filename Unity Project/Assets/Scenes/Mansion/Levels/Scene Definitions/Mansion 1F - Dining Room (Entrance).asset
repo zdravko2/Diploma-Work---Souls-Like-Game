@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec465ecc7e2f00d42909f9e8336f1c97, type: 3}
+  m_Name: Mansion 1F - Dining Room (Entrance)
+  m_EditorClassIdentifier: Assembly-CSharp::SceneDefinition
+  sceneId: 125768d2-617a-4010-a18e-4318067ed6f5
+  displayName: Mansion 1F - Dining Room
+  defaultSpawnPointId: Start
+  mainScene:
+    asset: {fileID: 102900000, guid: 4949eb00dd5da1b41a70638eb8e94c07, type: 3}
+    guid: 4949eb00dd5da1b41a70638eb8e94c07
+  neighbourScenes:
+  - asset: {fileID: 102900000, guid: 4fc72d9f49ad2084f8a259d5ef494891, type: 3}
+    guid: 4fc72d9f49ad2084f8a259d5ef494891
+  - asset: {fileID: 102900000, guid: 8b9cf1cb7e7c9fd4bbb7e4271120b70a, type: 3}
+    guid: 8b9cf1cb7e7c9fd4bbb7e4271120b70a
+  requiredScenes: []

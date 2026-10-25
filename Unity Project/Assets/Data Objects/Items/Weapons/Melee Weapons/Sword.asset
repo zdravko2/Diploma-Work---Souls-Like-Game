@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b10ebea7df150544ea7406ab46455f45, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: Assembly-CSharp::MeleeWeaponItem
+  id: 912ca28b-2975-4869-badf-cdc6d947204d
+  itemName: Sword
+  description: 
+  icon: {fileID: 0}
+  stackable: 0
+  model: {fileID: 753440582680057344, guid: 3d2a085941068444c90dd88a9aaa15c0, type: 3}
+  equipSound: {fileID: 0}
+  unequipSound: {fileID: 0}
+  swingSound: {fileID: 8300000, guid: a242347346d057844b5cd5c0edbbcf7d, type: 3}
+  parrySound: {fileID: 8300000, guid: f5f70bf89aadc264a8b12527bf7a424e, type: 3}
+  blockSound: {fileID: 8300000, guid: 14f0fd6c6dcde624daafa45e407502aa, type: 3}
+  hitSound: {fileID: 8300000, guid: 4f08493deaefd314a990f9027d571c0a, type: 3}
+  hitEffectPrefab: {fileID: 0}
+  blockEffectPrefab: {fileID: 0}
+  parryEffectPrefab: {fileID: 0}
+  strengthRequirement: 0
+  dexterityRequirement: 0
+  damageData:
+    damageType: 3
+    physical: 1
+    magical: 0
+    poise: 1
+    stamina: 0
+    knockbackStrength: 0
+    breaksHyperArmor: 0
+    contactPoint: {x: 0, y: 0, z: 0}
+    attacker: {fileID: 0}
+  guardAbsorption: 1
+  deflectionResistance: 1
+  onHitEffects: []
+  lightAttackModifier: 1
+  heavyAttackModifier: 1.5
+  primaryAction: {fileID: 11400000, guid: eefd93c6b8314aa4e92bd84ba9ca4858, type: 2}
+  secondaryAction: {fileID: 11400000, guid: 91c4b4b342d6342409d11e56ca2f8cb4, type: 2}

@@ -1,0 +1,44 @@
+=== Current ===
+
+Fix locomotion
+
+Create grab attacks
+Change how execution is handled
+
+Add costs to actions
+Balance player/enemy health/damage/poise
+
+Imlement multi-scene management
+
+Encapsulate fields
+
+=== Future ===
+
+Implement Ability System - to handle specific actions and track player actions
+Implement items
+Implement inventory
+Implement armor/equipment
+Separate damage data and contact info
+Fully implement input system
+Implement dynamic camera
+Fully implement poise and hyper armor
+Implement heavy/charged attacks
+Implement projectiles
+
+=== Watch out for bugs ===
+
+Animator event manager misbehaving (firing events out of sync/order)
+
+!! Animator event manager can fire events early if you use animator.Play instead of CrossFade during a transition
+
+=== Known bugs ===
+In newer versions of Unity Hitboxes can hit player multiple times because of on collision stay (probably because of forced animator events)
+
+Animator state event manager can mess up ordering/frame time of events when setting frame time from inspector
+
+=== Clean Up Before Shipping ===
+AnimatorManager
+SoundEffectEvent
+WeaponItemAction
+PlayerControlsManager
+BufferActionManager

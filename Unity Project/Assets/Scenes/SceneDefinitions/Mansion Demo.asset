@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec465ecc7e2f00d42909f9e8336f1c97, type: 3}
+  m_Name: Mansion Demo
+  m_EditorClassIdentifier: Assembly-CSharp::SceneDefinition
+  sceneId: 
+  displayName: Lucille's Bedroom
+  defaultSpawnPointId: Start
+  mainScene:
+    asset: {fileID: 102900000, guid: 647ef24c89942b44793e00301ed6b983, type: 3}
+    guid: 647ef24c89942b44793e00301ed6b983
+  neighbourScenes: []
+  requiredScenes: []

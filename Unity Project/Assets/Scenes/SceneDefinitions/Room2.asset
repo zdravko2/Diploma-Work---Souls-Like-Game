@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec465ecc7e2f00d42909f9e8336f1c97, type: 3}
+  m_Name: Room2
+  m_EditorClassIdentifier: Assembly-CSharp::SceneDefinition
+  sceneId: 7d507597-e22c-46f9-abd1-7e888d7bfa1f
+  displayName: 
+  defaultSpawnPointId: Spawn2
+  mainScene:
+    asset: {fileID: 102900000, guid: c8a675cc9fc567b4b9a9d019f29cf276, type: 3}
+    guid: c8a675cc9fc567b4b9a9d019f29cf276
+  neighbourScenes:
+  - asset: {fileID: 102900000, guid: 4dbd499b5b4eb654186d3b22a2ae82d3, type: 3}
+    guid: 4dbd499b5b4eb654186d3b22a2ae82d3
+  - asset: {fileID: 102900000, guid: 10e0616cf2ab308499e30d2cb6e796c5, type: 3}
+    guid: 10e0616cf2ab308499e30d2cb6e796c5
+  - asset: {fileID: 102900000, guid: 3e16675a7f033e947addf0946002d4bd, type: 3}
+    guid: 3e16675a7f033e947addf0946002d4bd
+  requiredScenes: []

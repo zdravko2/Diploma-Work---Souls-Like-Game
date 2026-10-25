@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec465ecc7e2f00d42909f9e8336f1c97, type: 3}
+  m_Name: Mansion 1F - Guest Room
+  m_EditorClassIdentifier: Assembly-CSharp::SceneDefinition
+  sceneId: 94fd4580-6662-4d2b-a729-f3d4d94d21ef
+  displayName: Mansion 1F - Guest Room
+  defaultSpawnPointId: Start
+  mainScene:
+    asset: {fileID: 102900000, guid: a2ed9468d4ebc4a4b801a0febee220bc, type: 3}
+    guid: a2ed9468d4ebc4a4b801a0febee220bc
+  neighbourScenes:
+  - asset: {fileID: 102900000, guid: 2caa0bac5cbabda42862e8515b6a34dc, type: 3}
+    guid: 2caa0bac5cbabda42862e8515b6a34dc
+  - asset: {fileID: 102900000, guid: 67412a3097e09b34686a05c05a2626c4, type: 3}
+    guid: 67412a3097e09b34686a05c05a2626c4
+  requiredScenes: []

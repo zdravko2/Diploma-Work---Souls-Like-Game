@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec465ecc7e2f00d42909f9e8336f1c97, type: 3}
+  m_Name: Mansion 1F - Living Room
+  m_EditorClassIdentifier: Assembly-CSharp::SceneDefinition
+  sceneId: c9702980-caa1-4965-be94-d29835354835
+  displayName: Mansion 1F - Living Room
+  defaultSpawnPointId: Start
+  mainScene:
+    asset: {fileID: 102900000, guid: 2caa0bac5cbabda42862e8515b6a34dc, type: 3}
+    guid: 2caa0bac5cbabda42862e8515b6a34dc
+  neighbourScenes:
+  - asset: {fileID: 102900000, guid: 8b9cf1cb7e7c9fd4bbb7e4271120b70a, type: 3}
+    guid: 8b9cf1cb7e7c9fd4bbb7e4271120b70a
+  - asset: {fileID: 102900000, guid: a2ed9468d4ebc4a4b801a0febee220bc, type: 3}
+    guid: a2ed9468d4ebc4a4b801a0febee220bc
+  requiredScenes: []

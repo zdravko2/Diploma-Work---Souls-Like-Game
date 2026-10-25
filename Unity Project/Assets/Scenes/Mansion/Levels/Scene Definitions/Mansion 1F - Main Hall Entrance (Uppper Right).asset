@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec465ecc7e2f00d42909f9e8336f1c97, type: 3}
+  m_Name: Mansion 1F - Main Hall Entrance (Uppper Right)
+  m_EditorClassIdentifier: Assembly-CSharp::SceneDefinition
+  sceneId: 40ebf136-ae8e-4153-84e4-25db3081c7ff
+  displayName: Mansion 1F - Main Hall Entrance
+  defaultSpawnPointId: Start
+  mainScene:
+    asset: {fileID: 102900000, guid: 8b9cf1cb7e7c9fd4bbb7e4271120b70a, type: 3}
+    guid: 8b9cf1cb7e7c9fd4bbb7e4271120b70a
+  neighbourScenes:
+  - asset: {fileID: 102900000, guid: 04ca607213b7c794dba95f4955b12d97, type: 3}
+    guid: 04ca607213b7c794dba95f4955b12d97
+  requiredScenes: []

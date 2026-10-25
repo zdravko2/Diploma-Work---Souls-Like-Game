@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1883908853744639883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3275040773934497568}
+  - component: {fileID: 6825480469981782984}
+  m_Layer: 0
+  m_Name: Player Input Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3275040773934497568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883908853744639883}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6825480469981782984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883908853744639883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227ed085e2dc2c74ea5161ccf45d8f57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <MoveInput>k__BackingField: {x: 0, y: 0}
+  <LookInput>k__BackingField: {x: 0, y: 0}
+  <SprintHeld>k__BackingField: 0
+  <DodgePressed>k__BackingField: 0
+  <JumpPressed>k__BackingField: 0
+  <InteractPressed>k__BackingField: 0
+  <PrimaryAction>k__BackingField: 0
+  <SecondaryAction>k__BackingField: 0
+  <LockOnPressed>k__BackingField: 0
+  <UseItemPressed>k__BackingField: 0
+  <CycleItemPressed>k__BackingField: 0
+  <ToggleHudPressed>k__BackingField: 0
+  <DebugAction1>k__BackingField: 0
+  <DebugAction2>k__BackingField: 0
+  <DebugAction3>k__BackingField: 0
+  <DebugAction4>k__BackingField: 0
+  <DebugAction5>k__BackingField: 0
